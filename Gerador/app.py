@@ -29,7 +29,8 @@ janela = Tk()
 janela.title('Gerador')
 # janela.geometry('295x360')
 janela.configure(bg=cor2)
-janela.resizable(width=False, height=False)  # Bloquia a tela cheia e deixa como nao redirecionamento
+# Bloquia a tela cheia e deixa como nao redirecionamento
+janela.resizable(width=False, height=False)
 janela.iconbitmap('senha.ico')  # icon do app
 
 
@@ -74,37 +75,37 @@ def criar_senha():
     simbolos = '[]{}()*;/,_-'
 
     global combinar
-    
+
     # condição para Maiuscula
-    
+
     if estado_1.get() == alfabeto_maior:
         combinar = alfabeto_maior
     else:
-        messagebox.showwarning('Atenção!', 'Almejando senhas fortes, o primeiro campo deve estar sempre selecionado para o restante funcionar')
+        messagebox.showwarning(
+            'Atenção!', 'Almejando senhas fortes, o primeiro campo deve estar sempre selecionado para o restante funcionar')
         return
-    
+
     # condição para Minuscula
-    
+
     if estado_2.get() == alfabeto_menor:
         combinar = combinar + alfabeto_menor
     else:
-        pass    
-    
+        pass
+
     # condição para Numero
-    
+
     if estado_3.get() == numeros:
         combinar = combinar + numeros
     else:
-        pass    
-    
+        pass
+
     # condição para Simbolos
-    
+
     if estado_4.get() == simbolos:
         combinar = combinar + simbolos
     else:
         pass
 
-    
     comprimento = int(spin.get())
     senha = ''.join(random.sample(combinar, comprimento))
 
@@ -112,17 +113,19 @@ def criar_senha():
 
 
 # ---------- Função Copiar Senha -----------
-   
+
+
     def copiar_senha():
         info = senha
         frame_baixo.clipboard_clear()
         frame_baixo.clipboard_append(info)
-        
-        messagebox.showinfo('Sucesso', 'A senha foi copiada com sucesso')
-        
 
-    botao_gerar_senha = Button(frame_baixo, command=copiar_senha, text='Copiar', width=7, height=2, padx=0, relief='raised', overrelief='solid', anchor='center', font=('Ivy 10 bold'), bg=cor2, fg=cor1)
-    botao_gerar_senha.grid(row=0, column=1, sticky=NW, padx=5, pady=7, columnspan=1)
+        messagebox.showinfo('Sucesso', 'A senha foi copiada com sucesso')
+
+    botao_gerar_senha = Button(frame_baixo, command=copiar_senha, text='Copiar', width=7, height=2, padx=0,
+                               relief='raised', overrelief='solid', anchor='center', font=('Ivy 10 bold'), bg=cor2, fg=cor1)
+    botao_gerar_senha.grid(row=0, column=1, sticky=NW,
+                           padx=5, pady=7, columnspan=1)
 
 
 # Trabalhando no frame_baixo --------------------------
@@ -235,13 +238,13 @@ altura = 360
 
 # Resolução do nosso sistema
 largura_screen = janela.winfo_screenwidth()
-altura_screen = janela.winfo_screenwidth()
+altura_screen = janela.winfo_screenheight()
 # print(largura_screen, altura_screen)  # para saber as dimensoes do monitor
 
 
 # Posição da janela
-posx = largura_screen/2 - largura/1.8
-posy = altura_screen/5 - altura/5
+posx = largura_screen/2 - largura/2
+posy = altura_screen/2 - altura/2
 
 # Definir a geometria
 janela.geometry("%dx%d+%d+%d" % (largura, altura, posx, posy))
