@@ -121,7 +121,7 @@ def criar_senha():
         frame_baixo.clipboard_append(info)
 
         messagebox.showinfo('Sucesso', 'A senha foi copiada com sucesso')
-
+        botao_gerar_senha.destroy()
     botao_gerar_senha = Button(frame_baixo, command=copiar_senha, text='Copiar', width=7, height=2, padx=0,
                                relief='raised', overrelief='solid', anchor='center', font=('Ivy 10 bold'), bg=cor2, fg=cor1)
     botao_gerar_senha.grid(row=0, column=1, sticky=NW,
