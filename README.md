@@ -36,7 +36,7 @@
 ## :dart: Sobre ##
 
 ```sh
-• Cadastro feito com a GUI tkinter, possui conexao com banco de dados sqlite e excell, onde sao armazenados as informações enviadas 
+• Gerador de senhas fortes em que há a escolha de certos caracteres que integrarão sua senha
 ```
 
 ## :sparkles: Funcionalidades ##
