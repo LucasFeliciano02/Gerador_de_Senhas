@@ -42,7 +42,7 @@
 ## :sparkles: Funcionalidades ##
 
 
-:heavy_check_mark: Armazenar um cadastro de um cliente por exemplo;\
+:heavy_check_mark: Gerar senhas fortes;\
 :heavy_check_mark: Usar como aplicativo desktop no seu computador;\
 :heavy_check_mark: Em breve disponibilizarei o executável
 
