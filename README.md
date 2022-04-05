@@ -36,7 +36,7 @@
 ## :dart: Sobre ##
 
 ```sh
-• Gerador de senhas fortes em que há a escolha de certos caracteres que integrarão sua senha
+• Gerador de senhas fortes em que há a opção de escolha de certos caracteres que integrarão sua senha
 ```
 
 ## :sparkles: Funcionalidades ##
