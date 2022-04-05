@@ -43,7 +43,7 @@
 
 
 :heavy_check_mark: Gerar senhas aleatórias e fortes;\
-:heavy_check_mark: Escolher tipos de caracteres que vai integrar a senha;\
+:heavy_check_mark: Escolher os tipos de caracteres que vai integrar a senha;\
 :heavy_check_mark: Usar como aplicativo desktop em seu computador;\
 :heavy_check_mark: Em breve disponibilizarei o executável
 
