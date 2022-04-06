@@ -1,9 +1,7 @@
 
 
 	🚧  Projeto Gerador de senha 🚀 Em construção...  🚧
-</h4> 
 
-<hr> 
 
 
 <div align="center" id="top">
