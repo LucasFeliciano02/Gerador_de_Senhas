@@ -1,4 +1,4 @@
-<h4 align="center"> 
+
 
 	🚧  Projeto Gerador de senha 🚀 Em construção...  🚧
 </h4> 
