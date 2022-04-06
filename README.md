@@ -1,7 +1,5 @@
 
-
-
-
+<br>
 <div align="center" id="top">
   <img alt="Gerador" title="Gerador" src="./gerador.gif"/>
 </h1>
