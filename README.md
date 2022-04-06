@@ -1,7 +1,5 @@
 
 
-	🚧  Projeto Gerador de senha 🚀 Em construção...  🚧
-
 
 
 <div align="center" id="top">
