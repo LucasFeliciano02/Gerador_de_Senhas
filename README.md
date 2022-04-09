@@ -1,3 +1,10 @@
+<!-- <h4 align="center"> 
+---
+	🚧  Projeto Gerador de senha 🚀 Em construção...  🚧
+</h4> 
+
+<hr> -->
+
 
 <div align="center" id="top">
   <img alt="Gerador" title="Gerador" src="./gerador.gif"/>
