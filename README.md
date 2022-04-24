@@ -94,7 +94,7 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
  2º  ->  venv\Scripts\activate.bat  
  3º  ->  .\venv\Scripts\activate.bat  
 
-# Baixar Run Code em extensões, tkinter no terminal e DESFRUTAR DO CÓDIGO
+### Baixar Run Code em extensões, tkinter no terminal e DESFRUTAR DO CÓDIGO
  -> terminal -> pip install tkinter
  -> terminal -> pip install pillow
 ```
