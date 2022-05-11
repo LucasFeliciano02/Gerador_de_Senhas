@@ -44,8 +44,8 @@
 
 :heavy_check_mark: Gerar senhas aleatórias e fortes;\
 :heavy_check_mark: Escolher os tipos de caracteres que vão integrar a senha;\
-:heavy_check_mark: Utilizar como aplicativo Executável em sua área de trabalho pelo link do meu google drive:\
-:heavy_check_mark: https://drive.google.com/drive/folders/1SMyKrFysyhuE5sn8xCFj7dk-Tv9dEEB_?usp=sharing
+:heavy_check_mark: Utilizar como aplicativo Executável em sua área de trabalho pelo link do meu google drive que contém o gerador.exe:\
+:heavy_check_mark: [Arquivo executável](https://drive.google.com/drive/folders/1SMyKrFysyhuE5sn8xCFj7dk-Tv9dEEB_?usp=sharing)
 
 
 ## :rocket: Tecnologias ##
@@ -80,7 +80,6 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
 
 
 ## :checkered_flag: Começando ##
-
 
 ```bash
 # Clone este repositorio
