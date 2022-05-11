@@ -44,7 +44,7 @@
 
 :heavy_check_mark: Gerar senhas aleatórias e fortes;\
 :heavy_check_mark: Escolher os tipos de caracteres que vão integrar a senha;\
-:heavy_check_mark: Utilizar como aplicativo Executável em sua área de trabalho com uto-py-to-exe - PyPI.
+:heavy_check_mark: Utilizar como aplicativo Executável em sua área de trabalho com auto-py-to-exe - PyPI.
 
 ## :rocket: Tecnologias ##
  
